@@ -1,0 +1,40 @@
+.container{
+    padding: 10px;
+    border-radius: 10px;
+    height:300px;
+    width: 400px;
+    margin:auto;
+    background-color: #4b504b;
+    box-shadow: 0px 0px 10px black;
+
+}
+.display-box{
+    font-family: 'orbitron', sans-serif;
+    background-color: #ddfaff;
+    border: 1 px solid black;
+    color: black;
+    border-radius: 5px;
+    width:98%;
+    height:66%;
+}
+#btn{
+    background-color: #71e089;
+
+}
+input[type=button]{
+    font-family: 'orbitron', sans-serif;
+    background-color: #fefdff;  
+    border: 1px solid rgb(4,253,13);
+    color: rgb(84,116,85);
+    width:100%;
+    height: 70%;
+    border-radius: 5px;
+    outline: none;
+}
+input:active[type=button]{
+    background-color: #504f52;
+    box-shadow: 0px 0px 10px black;
+}
+body{
+    background-color: rgb(123,203,232);
+}
